@@ -1,0 +1,31 @@
+{
+  "name": "movie-rental-partial",
+  "version": "1.0.0",
+  "description": "this is a partial deploy the app is in continuing development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yanians/movie-rental-partial.git"
+  },
+  "author": "Tres Paylas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yanians/movie-rental-partial/issues"
+  },
+  "homepage": "https://github.com/Yanians/movie-rental-partial#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/register": "^7.16.9",
+    "express": "^4.17.2",
+    "handlebars": "^4.7.7",
+    "swig": "^1.4.2"
+  },
+  "engines": {
+    "node": "v14.x"
+  }
+}
