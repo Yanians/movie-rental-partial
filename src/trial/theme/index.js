@@ -7,7 +7,7 @@ import { ThemeProvider, createTheme, StyledEngineProvider } from '@mui/material/
 import shape from './shape';
 import palette from './palette';
 import typography from './typography';
-import componentsOverride from './overrides';
+import ComponentsOverrides from './overrides';
 import shadows, { customShadows } from './shadows';
 
 // ----------------------------------------------------------------------
@@ -30,8 +30,7 @@ export default function ThemeConfig({ children }) {
   );
 
   const theme = createTheme(themeOptions);
-
-  theme.components = componentsOverride(theme);
+        theme.components = ComponentsOverrides(theme);
 
   return (
     <StyledEngineProvider injectFirst>

@@ -25,7 +25,8 @@ export default function AppConversionRates(){
 			bar:{horizontal: true, barHeight:'28%',borderRadius:2}
 		},
 
-		xaxis: {category:[
+		xaxis: {
+			category:[
 			    'Italy',
 			    'Japan',
 			    'China',
